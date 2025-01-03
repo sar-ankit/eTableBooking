@@ -1,0 +1,49 @@
+/* src/BookingForm.css */
+.booking-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.booking-form h2 {
+    text-align: center;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.booking-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.booking-form button:hover {
+    background-color: #218838;
+}
+
+.message {
+    color: red;
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #28a745;
+    background-color: #d4edda;
+}
